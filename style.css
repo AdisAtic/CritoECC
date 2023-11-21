@@ -1,7 +1,7 @@
 /* style.css */
 
 .top-background {
-  background-color: #cecece; /* Change the color as needed */
+  background-color: rgb(240, 239, 232); /* Change the color as needed */
   height: 330px; /* Adjust the height of the background */
   width: 100%;
   position: absolute;
@@ -21,7 +21,10 @@ body {
 .logo {
   width: 150px; /* Adjust the width of the logo */
   height: auto;
-  margin-right: 10px; /* Adjust the margin as needed */
+  margin-right: 30px; /* Adjust the margin as needed */
+  cursor: pointer;
+  margin-left: 120px;
+  
 }
 
 .container {
@@ -45,6 +48,8 @@ body {
   display: flex;
   flex-direction: row;
   gap: 10px;
+  cursor: pointer;
+  margin-right: 120px;
 }
 
 .social-icons img {
@@ -59,7 +64,7 @@ body {
 }
 
 .nav-button {
-  background-color: #4CAF50;
+  background-color: #0f4f11;
   border: none;
   color: white;
   padding: 10px 20px;
@@ -81,13 +86,14 @@ body {
 }
 
 .login-button {
-  background-color: #ffcc00;
+  background-color: rgb(253, 218, 116);
   border: none;
   color: black;
-  padding: 18px 40px;
+  padding: 14px 55px;
   font-size: 16px;
-  border-radius: 10px;
+  border-radius: 30px;
   cursor: pointer;
+  margin-right: 100px;
 }
 
 .login-button:hover {
@@ -96,10 +102,20 @@ body {
 
 .contact-info {
   text-align: center;
+  color: rgb(172, 172, 172);
   position: absolute;
-  top: 0;
+  top: 10px;
   left: 46%;
   transform: translateX(-50%);
+  border-bottom: solid 1px;
+  border-color: rgb(172, 172, 172);
+  cursor: pointer;
+  
+}
+
+.contact-logo {
+  width: 15px;
+  height: 15px;
 }
 
 .Home-service-news-contact {
@@ -109,6 +125,7 @@ body {
   left: 35%;
   transform: translateX(-50%);
   font-weight: bold;
+  cursor: pointer;
 }
 
 .Home-Contact {
@@ -147,9 +164,10 @@ body {
   display: flex;
   align-items: center;
   width: 300px; /* Adjust the width as needed */
-  border: solid 2px rgb(150, 150, 150);
+  border: solid 2px rgb(240, 239, 232);
   padding: 20px; /* Adjust padding as needed */
   margin: 10px; /* Adjust margin as needed */
+  cursor: pointer;
 }
 
 
@@ -172,13 +190,13 @@ p {
 }
 
 .info-box {
-  background-color: #cecece; /* Change the background color as needed */
-  border: 2px solid #333; /* Change the border color as needed */
+  background-color: rgb(240, 239, 232); /* Change the background color as needed */
   padding: 100px; /* Adjust padding as needed */
   text-align: center;
   margin: 600px auto; /* Center the box horizontally and add some margin from the top */
   max-width: 900px; /* Adjust the maximum width as needed */
   width: 900px;
+  
 }
 
 .info-box h2 {
@@ -205,7 +223,7 @@ p {
 }
 
 .yellow-button {
-  background-color: #ffcc00; /* Yellow color */
+  background-color: rgb(253, 218, 116); /* Yellow color */
   color: black;
   width: 102%;
   padding: 10px;
@@ -245,6 +263,7 @@ p {
   overflow: visible; /* Hide overflow text */
   white-space: nowrap; /* Prevent text from wrapping */
   text-overflow: ellipsis; /* Add ellipsis (...) if text overflows */
+  cursor: pointer;
 }
 
 .box-one {
@@ -260,6 +279,7 @@ p {
   overflow: visible; /* Hide overflow text */
   white-space: nowrap; /* Prevent text from wrapping */
   text-overflow: ellipsis; /* Add ellipsis (...) if text overflows */
+  cursor: pointer;
 
 }
 
@@ -287,12 +307,14 @@ p {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  cursor: pointer;
 }
 
 .logo-container-end {
   display: flex;
   justify-content: flex-end; /* Align items to the end (right side) */
   align-items: center;
+  cursor: pointer;
 }
 
 .logo-container-end img {
